@@ -12,6 +12,6 @@ def train_model(X_train, X_test, y_train, y_test):
     test_acc = accuracy_score(y_test, model.predict(X_test))
 
     # Save the trained model to disk
-    joblib.dump(model, "model.pkl")
+    joblib.dump(model, "data/output/model.pkl")
 
     return model, train_acc, test_acc

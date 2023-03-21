@@ -1,0 +1,25 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# Virtual environment-related files
+.env
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+
+# Data files
+/data/*
+
+# Model files
+/models/*
+
+# Output files
+/output/*
