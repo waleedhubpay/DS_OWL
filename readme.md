@@ -1,10 +1,10 @@
-# DS_OWL - Orchestrated Wisdom Layer
+# DS_OWL - Organised Wisdom Layer
 
-OWL (Orchestrated Wisdom Layer) is an MLOps pipeline designed to streamline the process of fetching new data, updating and re-running models, and saving model outputs. OWL is built using Python and leverages SQLAlchemy for data handling. This repository provides a detailed overview of the code structure and libraries used for implementing OWL.
+OWL (Organised Wisdom Layer) is an MLOps pipeline designed to streamline the process of fetching new data, updating and re-running models, and saving model outputs. OWL is built using Python and leverages SQLAlchemy for data handling. This repository provides a detailed overview of the code structure and libraries used for implementing OWL.
 
 ## Table of Contents
 
-- [DS\_OWL - Orchestrated Wisdom Layer](#ds_owl---orchestrated-wisdom-layer)
+- DS\_OWL - Organised Wisdom Layer
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Dependencies](#dependencies)
@@ -71,4 +71,8 @@ The OWL repository is organized as follows:
 
 To run the OWL pipeline, execute the following command:
 
+```
+python main.py
+```
+This will start the pipeline, which will fetch new data, preprocess it, train a model, and save the output every hour.
 
