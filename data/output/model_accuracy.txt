@@ -1,0 +1,5 @@
+time time.struct_time(tm_year=2023, tm_mon=3, tm_mday=20, tm_hour=19, tm_min=59, tm_sec=12, tm_wday=0, tm_yday=79, tm_isdst=1)
+Training accuracy: 0.9833333333333333
+Testing accuracy: 0.9666666666666667
+
+
